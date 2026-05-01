@@ -49,9 +49,9 @@ ul, ol {
   gap: 0;
 }
 
-p{
-  color: #ffff;
-}
+
+
+
 
 .logo{
   height: 100vh;
@@ -61,11 +61,21 @@ p{
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
+  font-size: 0;
+  color: white;
+  transition-duration: 1s;
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.logo:hover{
+  font-size: 18px;
+  color: black;
 }
 
 
 .l{
   display: flex;
+  gap: 10px;
 }
 
 .secondary-logo{
